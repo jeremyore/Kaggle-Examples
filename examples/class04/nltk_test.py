@@ -1,7 +1,6 @@
-from nltk.corpus import brown
+import nltk
 
-print(len(brown.categories()))
+sentence="hello,world"
+tokens=nltk.word_tokenize(sentence)
 
-print(brown.sents())
-
-print(brown.words())
+print(tokens)
