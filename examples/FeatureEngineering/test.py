@@ -8,3 +8,8 @@ iris.data
 
 # 目标向量
 iris.target
+
+from sklearn.preprocessing import StandardScaler
+
+# 标准化，返回值为标准化后的数据
+StandardScaler().fit_transform(iris.data)
